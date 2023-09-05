@@ -1,0 +1,5 @@
+out
+.clang-tidy
+.vs/
+client/
+server/

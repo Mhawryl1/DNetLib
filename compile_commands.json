@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YcD:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/cmake_pch.hxx /FpD:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/./cmake_pch.cxx.pch /FID:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/cmake_pch.hxx /FoDNetLib\\CMakeFiles\\DNetLib.dir\\cmake_pch.cxx.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\out\\build\\x64-Debug\\DNetLib\\CMakeFiles\\DNetLib.dir\\cmake_pch.cxx",
+  "file": "D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\out\\build\\x64-Debug\\DNetLib\\CMakeFiles\\DNetLib.dir\\cmake_pch.cxx",
+  "output": "DNetLib\\CMakeFiles\\DNetLib.dir\\cmake_pch.cxx.obj"
+},
+{
+  "directory": "D:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuD:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/cmake_pch.hxx /FpD:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/./cmake_pch.cxx.pch /FID:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug/DNetLib/CMakeFiles/DNetLib.dir/cmake_pch.hxx /FoDNetLib\\CMakeFiles\\DNetLib.dir\\src\\Net.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\src\\Net.cpp",
+  "file": "D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\src\\Net.cpp",
+  "output": "DNetLib\\CMakeFiles\\DNetLib.dir\\src\\Net.cpp.obj"
+},
+{
+  "directory": "D:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /Foserver\\CMakeFiles\\server.dir\\server.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\server\\server.cpp",
+  "file": "D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\server\\server.cpp",
+  "output": "server\\CMakeFiles\\server.dir\\server.cpp.obj"
+},
+{
+  "directory": "D:/Projekty_C++/Solution/Networking/DNetLib/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Projekty_C++\\Solution\\Networking\\DNetLib\\DNetLib\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /Foclient\\CMakeFiles\\client.dir\\client.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\client\\client.cpp",
+  "file": "D:\\Projekty_C++\\Solution\\Networking\\DNetLib\\client\\client.cpp",
+  "output": "client\\CMakeFiles\\client.dir\\client.cpp.obj"
+}
+]

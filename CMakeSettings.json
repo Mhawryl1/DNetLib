@@ -1,0 +1,64 @@
+{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "enableClangTidyCodeAnalysis": true,
+      "clangTidyChecks": "-*,modernize-*",
+      "configurationType": "RelWithDebInfo",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ]
+    },
+    {
+      "name": "x64-Debug",
+      "generator": "Visual Studio 17 2022 Win64",
+      "configurationType": "Debug",
+      "enableClangTidyCodeAnalysis": true,
+      "clangTidyChecks": "clang-tidy; -*,modernize-*",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "intelliSenseMode": "windows-msvc-x64"
+    },
+    {
+      "name": "x86-Debug",
+      "enableClangTidyCodeAnalysis": true,
+      "clangTidyChecks": "-*,modernize-*",
+      "generator": "Visual Studio 17 2022",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ]
+    },
+    {
+      "name": "x64-Test",
+      "generator": "Visual Studio 17 2022 Win64",
+      "configurationType": "Debug",
+      "enableClangTidyCodeAnalysis": true,
+      "clangTidyChecks": "-*,modernize-*",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "intelliSenseMode": "windows-msvc-x64",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_MTEST",
+          "value": "ON"
+        }
+      ]
+    }
+  ]
+}
